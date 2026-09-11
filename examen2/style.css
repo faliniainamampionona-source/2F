@@ -1,0 +1,257 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 98, 124);
+    gap: 5px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+}
+.b1{
+    display: flex;
+    gap: 10px;
+}
+
+.h1{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(108, 108, 243);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    /* margin-left: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18pt;
+}
+h4{
+    font-size: 14pt;
+    color: rgb(132, 132, 214);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    background-color: white;
+    width: 100%;
+    top: 50px;
+
+}
+.b2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12pt;
+    color: rgb(78, 108, 153);
+    font-weight: bold;
+    border: 2px;
+    transition: 0.3s;
+}
+
+.m:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 70px;
+    height: 20px;
+    border: 2px;
+    background-color: rgb(104, 104, 150);
+    color: white;
+    border-radius: 15px;
+}
+.bt{
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: rgb(64, 63, 107);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    margin-right: 20px;
+    cursor: .1;
+}
+#acceuil{
+    background-color: rgb(14, 112, 112);
+    width:auto;
+
+}
+.droit{
+    width: 600px;
+}
+h5{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width:200px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(75, 156, 180);
+}
+#acceuil{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.x{
+    margin: 0px;
+    padding: 0px;
+    font-size: 70pt;
+    color: white;
+    font-weight: bold;
+}
+.z{
+    margin: 0px;
+    padding: 0px;
+    font-size: 70pt;
+    font-weight: bold;
+    color: rgb(69, 186, 253);
+}
+.p{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 20pt;
+    color: white;
+    font-weight: bold;
+}
+.im{
+   width: 350px;
+   height:350px;
+   border: none;
+   border-radius: 15px;
+   margin-top: 0px;
+   transition: 3s;
+}
+.im:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 10px 5px rgb(0, 153, 255);
+    cursor: progress;
+}
+.parents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: auto;
+}
+#Service .di{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14pt;
+    margin-bottom: 90px;
+}
+.h2{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 174, 255);
+    margin-top: 50px;
+    font-size: 20pt;
+}
+.h6{
+    font-size: 16pt;
+    color: rgb(65, 135, 196);
+    text-align: center;
+}
+.p1{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+
+}
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 225, 255);
+}
+.l{
+    font-size: 14pt;
+    color: rgb(108, 31, 250);
+    font-weight: bold;
+}
+.v{
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 140, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.di{
+    transition: 1s;
+}
+.v{
+    transition: 1s;
+}
+.v:hover{
+    transform: translateY(-4px);
+}
+.di:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 10px 3px lightblue;
+}
+@media (max-width:800px) {
+    html{
+        width: auto;
+    }
+    .x,.z{
+        font-size: 30pt;
+    }
+    .a,h4,.bt,.im{
+        display: none;
+    }
+    .m{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+
+    }
+    .p{
+        font-size: 14pt;
+    }
+    .parents{
+        display: block;
+        margin-left: 45px;
+    }
+    #contact{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+
+
